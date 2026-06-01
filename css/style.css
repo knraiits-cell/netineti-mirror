@@ -940,7 +940,10 @@ html[data-lang="hi"] .footer-disclaimer strong { text-transform: none; letter-sp
   .section-title::after { display: none; }
 }
 
-/* ─── DR mirror ribbon ───────────────────────────────────────────────── */
+/* ─── DR mirror ribbon ─────────────────────────────────────────────────
+   Rendered only on mirror variants (see variants.json). The rule is harmless
+   on variants where the element isn't emitted.
+─────────────────────────────────────────────────────────────────────── */
 .dr-ribbon{
   position:sticky; top:0; z-index:9999;
   background:linear-gradient(90deg,#5b2a86,#7b3fb8);

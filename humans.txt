@@ -8,9 +8,9 @@ Linktree: https://linktr.ee/knrai
 
 /* SITE */
 Canonical: https://netineticharaiveticharaiveti.in/
-Role: DR mirror of https://netineticharaiveticharaiveti.in/
+Mirror: https://knraiits-cell.github.io/netineti-mirror/
 Languages: English, हिन्दी
-Fingerprint: KNR-NNCC-IN-2025-Q2-DR-MIRROR
+Fingerprint: KNR-NNCC-IN-2025-Q2
 
 /* NOTICE */
 This is a personal site. Views are purely personal and unrelated to any

@@ -14,7 +14,7 @@
   X-Robots-Tag: index, follow
   X-Author: Krishna Nand Rai (K.N. Rai / Khalil Asgar)
   X-Canonical: https://netineticharaiveticharaiveti.in/
-  X-Fingerprint: KNR-NNCC-IN-2025-Q2-DR-MIRROR
+  X-Fingerprint: KNR-NNCC-IN-2025-Q2
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable

@@ -10,8 +10,6 @@
      3. Console fingerprint to help identify clones.
 ─────────────────────────────────────────────────────────────────────── */
 (function antiClone() {
-  // Frame-bust: if embedded in an iframe, break out to this mirror's top-level URL
-  // (not the main site — main may be down, that's why this mirror exists).
   try {
     if (window.top !== window.self) {
       window.top.location = location.href;
@@ -79,20 +77,20 @@
 /* ─── Mirror / fallback fail-over ────────────────────────────────
    If the main site is broken (critical assets failed to load, repeated
    network errors, or stylesheet missing), surface a banner offering the
-   Squarespace mirror at oarfish-gar-nx5a.squarespace.com.
+   pplx.app DR mirror at knraiits-cell.github.io/netineti-mirror.
    We do NOT auto-redirect — we let the visitor choose. Surprise redirects
    are hostile UX; one-tap fail-over is the right balance.
 ─────────────────────────────────────────────────────────────────────── */
-// On the mirror, the failover banner is disabled — you ARE the mirror.
+// This variant IS a mirror — failover banner disabled.
 const MIRROR_URL = null;
 
 (function mirrorFailover() {
-  if (!MIRROR_URL) return; // mirror site — nothing to fall over to
   let shown = false;
   let assetErrors = 0;
 
   function showMirrorBanner(reason) {
     if (shown) return;
+    if (!MIRROR_URL) return; // mirror site — nothing to fall over to
     shown = true;
     const isHi = document.documentElement.getAttribute("data-lang") === "hi";
     const msg = isHi
