@@ -16,7 +16,7 @@
 // Versioning: bumping CACHE_VERSION evicts old caches on activation.
 // ─────────────────────────────────────────────────────────────────────
 
-const CACHE_VERSION = "dec6c0da72";
+const CACHE_VERSION = "f074ee33e9";
 const PRECACHE   = `nncc-pre-${CACHE_VERSION}`;
 const RUNTIME    = `nncc-rt-${CACHE_VERSION}`;
 const FONTS      = `nncc-fonts-${CACHE_VERSION}`;
