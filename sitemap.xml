@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://knraiits-cell.github.io/netineti-mirror/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://knraiits-cell.github.io/netineti-mirror/" />
+    <xhtml:link rel="alternate" hreflang="hi"        href="https://knraiits-cell.github.io/netineti-mirror/?lang=hi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://knraiits-cell.github.io/netineti-mirror/" />
+  </url>
+  <url>
+    <loc>https://knraiits-cell.github.io/netineti-mirror/#about</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://knraiits-cell.github.io/netineti-mirror/#work</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://knraiits-cell.github.io/netineti-mirror/#music</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://knraiits-cell.github.io/netineti-mirror/#wisdom</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://knraiits-cell.github.io/netineti-mirror/#connect</loc>
+    <lastmod>2026-06-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
